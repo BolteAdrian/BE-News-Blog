@@ -1,6 +1,5 @@
-# spring-ng-blog
-A simple blog application created using Spring Boot, Spring Security, Spring Data JPA on the backend and Angular 7, Bootstrap on the frontend
+#News Blog
+A simple news blog application created using Spring Boot,Spring Data JPA, Spring Security on the backend, SQL for database and Angular 7 for frontend.
 
-You can find the frontend application code at - https://github.com/SaiUpadhyayula/ng-spring-blog-frontend
+Link to frontend:FE-News-Blog 
 
-You can also watch me code this application on Youtube at : https://www.youtube.com/playlist?list=PLSVW22jAG8pCwwM3tjSMfwBKYIS6_fP-F
