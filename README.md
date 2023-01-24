@@ -1,4 +1,4 @@
-#News Blog
+# News Blog Backend
 
 Backend for a simple news blog application with 3-tier arhitecture, created using Spring Boot,Spring Data JPA, Spring Security on the backend, SQL for database and Angular 7 for frontend.
 
