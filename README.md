@@ -21,7 +21,7 @@ CREATE TABLE `post` (
   
   `category` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_romanian_ci DEFAULT NULL,
   
-  `picture` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `picture` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   
   `updated_on` datetime DEFAULT NULL,
   
