@@ -7,6 +7,7 @@ public class PostDto {
     private String username;
     private String short_description;
     private String category;
+    private String picture;
 
     public Long getId() {
         return id;
@@ -44,12 +45,20 @@ public class PostDto {
         this.category = category;
     }
 
+    public void setPicture(String picture)  {
+        this.picture = picture;
+    }
+
     public void setShort_description(String short_description) {
         this.short_description = short_description;
     }
 
     public String getCategory() {
         return category;
+    }
+
+    public String getPicture() {
+        return picture;
     }
 
     public String getShort_description() {

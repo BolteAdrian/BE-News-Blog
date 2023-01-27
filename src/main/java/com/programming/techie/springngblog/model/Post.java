@@ -19,6 +19,9 @@ public class Post {
     private String category;
 
     @Column
+    private String picture;
+
+    @Column
     private String short_description;
     @Lob
     @Column
@@ -62,6 +65,14 @@ public class Post {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public String getPicture() {
+        return picture;
+    }
+
+    public void setPicture(String picture) {
+        this.picture = picture;
     }
 
     public String getShort_description() {

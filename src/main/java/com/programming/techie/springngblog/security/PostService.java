@@ -46,6 +46,7 @@ public class PostService {
         postDto.setId(post.getId());
         postDto.setTitle(post.getTitle());
         postDto.setCategory(post.getCategory());
+        postDto.setPicture(post.getPicture());
         postDto.setShort_description(post.getShort_description());
         postDto.setContent(post.getContent());
         postDto.setUsername(post.getUsername());
@@ -56,6 +57,7 @@ public class PostService {
         Post post = new Post();
         post.setTitle(postDto.getTitle());
         post.setCategory(postDto.getCategory());
+        post.setPicture(postDto.getPicture());
         post.setShort_description(postDto.getShort_description());
         post.setContent(postDto.getContent());
         User loggedInUser = authService.getCurrentUser().orElseThrow(() -> new IllegalArgumentException("User Not Found"));
